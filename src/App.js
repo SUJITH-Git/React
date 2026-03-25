@@ -10,6 +10,7 @@ import Users from "./Pages/Users";
 import Settings from "./Pages/Settings";
 import Compony from "./Pages/Compony";
 import Acc from './Pages/Functionalities/Acc';
+import Contact from './Pages/ContactForm/Contact';
 
 
 //Accordian Data
@@ -67,6 +68,7 @@ function App() {
           <Route path="/settings" element={<Settings />} />
           <Route path="/compony" element={<Compony />} />
           <Route path="/acc" element={<Acc items={data} />} />
+           <Route path="/contact" element={<Contact/>} />
         </Routes>
      </Box>
   </Box>

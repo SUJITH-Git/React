@@ -64,6 +64,14 @@ import {
             <ListItemText primary="Accordion Component" />
           </ListItem>
   
+       <ListItem
+            button
+            component={NavLink}
+            to="/contact">
+            <ListItemIcon><PeopleIcon /></ListItemIcon>
+            <ListItemText primary="ContactForm" />
+          </ListItem>
+
         </List>
       </Drawer>
     );
