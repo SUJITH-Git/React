@@ -68,3 +68,34 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+===================================================================
+GIT
+===================================================================
+1. Prerequisites
+Make sure you have:
+
+A GitHub account
+Git installed (check with git --version in terminal)
+VS Code installed
+🚀 2. Initialize Git in your project
+Open your project folder in VS Code
+Open Terminal in VS Code (`Ctrl + ``)
+Run:
+git init
+➕ 3. Stage and commit your code
+git add .
+git commit -m "Initial commit"
+🌐 4. Create a GitHub repository
+Go to GitHub
+Click New repository
+Give it a name
+Click Create repository
+🔗 5. Connect your local repo to GitHub
+
+Copy the repo URL and run:
+
+git remote add origin https://github.com/your-username/your-repo-name.git
+⬆️ 6. Push your code
+git branch -M main
+git push -u origin main
+========================================================================
