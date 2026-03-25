@@ -1,5 +1,7 @@
+
 const Users = () => {
-    return <h2>Companies</h2>;
+    return (<h6>Companies</h6> );
+      
   };
   
   export default Users;

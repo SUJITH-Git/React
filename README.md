@@ -99,3 +99,18 @@ git remote add origin https://github.com/your-username/your-repo-name.git
 git branch -M main
 git push -u origin main
 ========================================================================
+COMMITING CHAGES
+=========================
+1)Check what changed
+  git status
+
+2)Add (stage) the file
+  git add filename
+     OR
+  git add .
+
+3)Commit your changes
+git commit -m "Updated file"
+
+4)Push to GitHub
+git push origin main

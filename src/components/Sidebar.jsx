@@ -55,6 +55,14 @@ import {
             <ListItemIcon><Diversity1Icon /></ListItemIcon>
             <ListItemText primary="Compony" />
           </ListItem>
+
+              <ListItem
+            button
+            component={NavLink}
+            to="/acc">
+            <ListItemIcon><Diversity1Icon /></ListItemIcon>
+            <ListItemText primary="Accordion Component" />
+          </ListItem>
   
         </List>
       </Drawer>

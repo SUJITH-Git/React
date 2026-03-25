@@ -9,7 +9,25 @@ import Dashboard from "./Pages/Dashboard";
 import Users from "./Pages/Users";
 import Settings from "./Pages/Settings";
 import Compony from "./Pages/Compony";
+import Acc from './Pages/Functionalities/Acc';
 
+
+//Accordian Data
+const data = [
+  {
+    title: "Section 1",
+    content: "This is the content snippet for section 1.",
+  },
+  {
+    title: "Section 2",
+    content: "This is the content snippet for section 2.",
+  },
+  {
+    title: "Section 3",
+    content: "This is the content snippet for section 3.",
+  },
+];
+//Accordian Data
 
 function App() {
 
@@ -48,6 +66,7 @@ function App() {
           <Route path="/users" element={<Users />} />
           <Route path="/settings" element={<Settings />} />
           <Route path="/compony" element={<Compony />} />
+          <Route path="/acc" element={<Acc items={data} />} />
         </Routes>
      </Box>
   </Box>
