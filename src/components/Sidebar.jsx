@@ -72,6 +72,14 @@ import {
             <ListItemText primary="ContactForm" />
           </ListItem>
 
+          <ListItem
+            button
+            component={NavLink}
+            to="/progress">
+            <ListItemIcon><PeopleIcon /></ListItemIcon>
+            <ListItemText primary="ProgressBar" />
+          </ListItem>
+
         </List>
       </Drawer>
     );

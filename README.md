@@ -114,3 +114,9 @@ git commit -m "Updated file"
 
 4)Push to GitHub
 git push origin main
+
+
+--------------------
+CMD
+--
+1)Run application npm start
